@@ -1,0 +1,77 @@
+Introduction to Array:-
+  => collection of datatype
+  => enclosed within squre braket[]
+  => index always starts with 0
+  => to print the value inside the array we have to use
+  arrayname[indexvalue]
+  => to find the length dynamically we have to use
+  arrayname.length
+  => to find the last index we have to use
+  arrayname.length-1
+
+
+  Introductionto Objects:-
+    =>Objects are structure with key value pairs
+    => Objects don't have index
+  Syntax:-
+   var/let/const objname = {
+    keyName: value
+   }  
+  example:-
+     person details(name,age,gender,year,city)
+     - - - - - - - - - - - - - - -- - - - 
+
+  =>Accessing the element inside the object   
+  => we can access the element by using keyName
+  => There are 2 types of accessing
+       * dot method (refer javascript) 
+         syntax:-
+            objectName.keyName 
+       * box method (refer javascript)
+           =>without keys we dont have values
+              
+  - - - - - - - - - - - - - - - - - - 
+  for in loop syntax:-
+    for(var key in objectName){
+        block of code
+    }            
+    - -   - - - - - - -  -- - -- - -- - - --  
+    //add key and value in object
+    ex:-
+       let personDetails = {
+    Name: "vignesh",
+    Age: 25,
+    Gender: "Male",
+    Year: 1998,
+    City: "paramakudi"
+}
+//add panra code
+
+  personDetails.Emailid ="abcd@gmail.com"
+
+Output:-
+    Name: "vignesh",
+    Age: 25,
+    Gender: "Male",
+    Emailid: "abcd@gmail.com"
+    Year: 1998,
+    City: "paramakudi"
+ - - - - - - - - - - - - - - - - - - - 
+ ethavathu oru key value ya update panrathu
+ syntax:-
+    objectName.keyName=value
+    personDetails.Age=35
+- - - - - - - -- - - - - - - - - - - - - - - 
+ethavathu oru key value ya epdi delete panrathu
+syntax:-
+  delete objectName.keyName
+  delete.personDetails.year
+
+  - - - - - - - - - -  - - - - - - - - - - - - - -
+
+  Introduction JSON
+  =>JSON(javascript Object Notation)
+  syntax:-
+     var objectName={
+        "key":"value"
+     }
